@@ -1898,6 +1898,7 @@ markers:
   - {type: substitution, offset: 4519, original: 闚, replacement: 窺, reason: scribal-variant-collapsed, mapping: {identifier: 'bkk:mapping/variant-fold-v1', hash: 'sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20', entry: vf-17649}}
   - {type: punctuation, offset: 4520, content: /, id: KR2n0037_krp_006-bkkpn257}
   - {type: punctuation, offset: 4520, content: ), id: KR2n0037_krp_006-bkkpn258}
+  - {type: 'voice:problem', offset: 4520, length: 0, id: KR2n0037_bkk_006-bkkvprob1, source: parens, bucket: body, code: stray-close, message: unexpected ')' at offset 4520 with no matching '('}
   - {type: indent, offset: 4522, content: 　, id: KR2n0037_krp_006-bkkind276}
   - {type: 'kr:non-cjk', offset: 4522, content: □, id: KR2n0037_krp_006-bkkkrnonc31}
   - {type: punctuation, offset: 4522, content: (, id: KR2n0037_krp_006-bkkpn259}
@@ -5509,4 +5510,4 @@ markers:
 
       ', id: KR2n0037_krp_006-bkkkrnewl680}
   back: []
-hash: sha256:cc2f2e26a1ceffea574a3342d0daa7b99203527b8f5136b37ba3ed738a224733
+hash: sha256:d04f4d0ba5949ec45ec468a55ad5f182c997cff166b4ea110a0cf3ff410ccea5
